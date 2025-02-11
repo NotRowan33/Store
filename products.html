@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Website - Products</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Products</h1>
+    <div class="products">
+      <!-- Example Product 1 -->
+      <div class="product">
+        <h2>Product 1</h2>
+        <p>Description of Product 1.</p>
+        <p>Price: $10</p>
+        <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+      </div>
+
+      <!-- Example Product 2 -->
+      <div class="product">
+        <h2>Product 2</h2>
+        <p>Description of Product 2.</p>
+        <p>Price: $20</p>
+        <button onclick="addToCart('Product 2', 20)">Add to Cart</button>
+      </div>
+
+      <!-- Example Product 3 -->
+      <div class="product">
+        <h2>Product 3</h2>
+        <p>Description of Product 3.</p>
+        <p>Price: $30</p>
+        <button onclick="addToCart('Product 3', 30)">Add to Cart</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
